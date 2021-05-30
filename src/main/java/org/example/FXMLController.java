@@ -16,11 +16,11 @@ import java.util.ResourceBundle;
 public class FXMLController implements Initializable {
 
     @FXML
-    private Label lblOut;
+    private Label lblDisplay;
 
     @FXML
     private void btnClickAction(ActionEvent event) {
-        lblOut.setText("Hello World!");
+        lblDisplay.setText("Hello World!");
     }
 
     @Override
