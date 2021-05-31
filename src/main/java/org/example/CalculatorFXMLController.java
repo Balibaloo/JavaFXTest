@@ -19,7 +19,7 @@ public class CalculatorFXMLController implements Initializable {
     private Label lblDisplay;
 
     @FXML
-    private void btnClickAction(ActionEvent event) {
+    private void onEvalClick(ActionEvent event) {
         lblDisplay.setText("Hello World!");
     }
 
