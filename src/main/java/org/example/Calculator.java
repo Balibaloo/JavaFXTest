@@ -16,6 +16,19 @@ public class Calculator {
     display = d;
   }
 
+
+  public Calculator inputDigit(Integer digit) {
+    if (digit < 0 || digit > 9) {
+      throw new IllegalArgumentException("Error: digit must be a number from 0-9");
+    }
+
+    argumentStorage.add(digit.toString().charAt(0));
+    showDisplay();
+
+    return this; // allows method chaining
+  }
+
+
   public void showDisplay() {
     if (display == null) {
       System.err.println("Error: Calculator display method has not been set");
