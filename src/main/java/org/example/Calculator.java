@@ -10,10 +10,23 @@ public class Calculator {
   public Calculator() {
     argumentStorage = new ArrayList<>();
   }
-  
+
   public Calculator(Display d) {
     this();
     display = d;
+  }
+
+  public void showDisplay() {
+    if (display == null) {
+      System.err.println("Error: Calculator display method has not been set");
+      return;
+    }
+    StringBuilder builder = new StringBuilder(argumentStorage.size());
+    for (Character ch : argumentStorage) {
+      builder.append(ch);
+    }
+
+    ifDisplayThenShow(builder.toString());
   }
 
   // used to update data when the argument storage changes
