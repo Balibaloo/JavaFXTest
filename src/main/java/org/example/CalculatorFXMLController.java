@@ -14,6 +14,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class CalculatorFXMLController implements Initializable {
+    private Calculator calculator;
 
     @FXML
     private Label lblDisplay;
@@ -25,6 +26,7 @@ public class CalculatorFXMLController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        
+        calculator = new Calculator();
+        calculator.setDisplay(data -> lblDisplay.setText(data));
     }
 }
