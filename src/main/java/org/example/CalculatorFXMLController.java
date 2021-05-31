@@ -8,6 +8,7 @@ Put header here
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 import java.net.URL;
@@ -22,6 +23,13 @@ public class CalculatorFXMLController implements Initializable {
     @FXML
     private void onEvalClick(ActionEvent event) {
         lblDisplay.setText("Hello World!");
+    }
+
+    @FXML
+    private void onNumberClick(ActionEvent event) {
+        Button button = (Button) event.getSource();
+        Integer buttonValue = Integer.parseInt(button.textProperty().getValue());
+        calculator.inputDigit(buttonValue);
     }
 
     @Override

@@ -24,61 +24,61 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
         </rowConstraints>
 
-        <Button mnemonicParsing="false" text="1" GridPane.halignment="CENTER"
+        <Button mnemonicParsing="false" onAction="#onNumberClick" text="1" GridPane.halignment="CENTER"
                 GridPane.rowIndex="2">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button mnemonicParsing="false" text="2" GridPane.columnIndex="1"
+        <Button mnemonicParsing="false" onAction="#onNumberClick" text="2" GridPane.columnIndex="1"
                 GridPane.halignment="CENTER" GridPane.rowIndex="2">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button layoutX="86.0" layoutY="65.0" mnemonicParsing="false" text="3"
+        <Button layoutX="86.0" layoutY="65.0" mnemonicParsing="false" onAction="#onNumberClick" text="3"
                 GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button layoutX="25.0" layoutY="65.0" mnemonicParsing="false" text="4"
+        <Button layoutX="25.0" layoutY="65.0" mnemonicParsing="false" onAction="#onNumberClick" text="4"
                 GridPane.halignment="CENTER" GridPane.rowIndex="1">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button layoutX="86.0" layoutY="65.0" mnemonicParsing="false" text="5"
+        <Button layoutX="86.0" layoutY="65.0" mnemonicParsing="false" onAction="#onNumberClick" text="5"
                 GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button layoutX="148.0" layoutY="65.0" mnemonicParsing="false" text="6"
+        <Button layoutX="148.0" layoutY="65.0" mnemonicParsing="false" onAction="#onNumberClick" text="6"
                 GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button layoutX="25.0" layoutY="37.0" mnemonicParsing="false" text="7"
+        <Button layoutX="25.0" layoutY="37.0" mnemonicParsing="false" onAction="#onNumberClick" text="7"
                 GridPane.halignment="CENTER">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button layoutX="148.0" layoutY="37.0" mnemonicParsing="false" text="8"
+        <Button layoutX="148.0" layoutY="37.0" mnemonicParsing="false" onAction="#onNumberClick" text="8"
                 GridPane.columnIndex="1" GridPane.halignment="CENTER">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button layoutX="86.0" layoutY="37.0" mnemonicParsing="false" text="9"
+        <Button layoutX="86.0" layoutY="37.0" mnemonicParsing="false" onAction="#onNumberClick" text="9"
                 GridPane.columnIndex="2" GridPane.halignment="CENTER">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
             </padding>
         </Button>
-        <Button layoutX="148.0" layoutY="10.0" mnemonicParsing="false" text="0"
+        <Button layoutX="148.0" layoutY="10.0" mnemonicParsing="false" onAction="#onNumberClick" text="0"
                 GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
             <padding>
                 <Insets bottom="5.0" left="12.0" right="12.0" top="5.0"/>
