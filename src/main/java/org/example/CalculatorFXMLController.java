@@ -13,7 +13,7 @@ import javafx.scene.control.Label;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class FXMLController implements Initializable {
+public class CalculatorFXMLController implements Initializable {
 
     @FXML
     private Label lblDisplay;
